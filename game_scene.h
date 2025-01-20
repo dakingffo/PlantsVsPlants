@@ -179,7 +179,7 @@ public:
 
 		if (is_debug) {
 			settextcolor(RGB(255, 0, 0));
-			outtextxy(15, 15, _T("��Q�رյ���"));
+			outtextxy(15, 15, _T("°´Q¹Ø±Õµ÷ÊÔ"));
 		}
 		player1->on_draw(camera);
 		player2->on_draw(camera);
@@ -222,7 +222,7 @@ public:
 	}
 private:
 	static constexpr float speed_winner_bar = 3.0f;
-	static constexpr float speed_winner_text = 1.5f;
+	static constexpr float speed_winner_text = 2.5f;
 
 	POINT pos_img_sky = { 0 };
 	POINT pos_img_hills = { 0 };
